@@ -48,21 +48,7 @@
   <header class="container mx-auto mb-24">
     <div class="navbar bg-base-100">
       <div class="navbar-start">
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-            <li><a>Services</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
-          </ul>
-        </div>
+       
         <a class="text-3xl font-extrabold"><i
             class="fa-solid fa-arrow-right -rotate-45 bg-bk-green rounded-3xl p-1"></i> Rinterio</a>
       </div>
@@ -75,9 +61,24 @@
           <li><a>Contact Us</a></li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <a class="btn bg-bk-green rounded-3xl font-black">Book Consult <i
+      <div class=" navbar-end">
+        <a class="btn bg-bk-green rounded-3xl font-black hidden lg:flex">Book Consult <i
             class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-3xl p-1 text-white"></i></a>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
       </div>
     </div>
     <div id="barnhouse" class="container space-y-6">
@@ -102,7 +103,7 @@
   <main>
     <section id="about-us" class=" bg-slate-100 mt pt-6">
 
-      <img class="ml-36" src="assets/Vector.png">
+      <img class="ml-36 hidden lg:flex" src="assets/Vector.png">
       <div class="container mx-auto flex flex-col lg:flex-row pb-28 gap-8">
 
         <div id="text" class="flex-1">
@@ -119,7 +120,7 @@
             </figure>
             <div class="card-body">
               <h2 class="card-title">Commercial</h2>
-              <p>The barn house captivates with its blend<br> of rustic charm and modern.</p>
+              <p>The culmination of these characteristics endows modern<br>barn houses with a distinct appeal that’s both practical and picturesque.</p>
             </div>
           </div>
 
@@ -129,7 +130,7 @@
             </figure>
             <div class="card-body">
               <h2 class="card-title">Residential</h2>
-              <p>The barn house captivates with its blend<br> of rustic charm and modern.</p>
+              <p> By marrying them with contemporary design, we create homes that feel<br> grounded in history yet perfect for today’s living.</p>
             </div>
           </div>
 
@@ -147,9 +148,7 @@
 
           <h1 class="text-4xl font-black mt-4 mb-6">Our Works Process</h1>
 
-          <p class="mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
-            featuring weathered
-            wood, sleek metal accents.</p>
+          <p class="mb-8">These are ingeniously constructed into a hillside, allowing for a multi-level design with each floor<br> accessible at ground level, thanks to the natural gradient of the terrain.</p>
         </text>
 
         <div class="grid grid-cols-1 lg:grid-cols-4 space-x-4 gap-5 lg:gap-0 ml-32 mr-32">
@@ -157,28 +156,28 @@
           <div class="space-y-2 p-6 bg-pin rounded-2xl">
             <img src="assets/concept.png">
             <h3 class="text-xl font-extrabold">Concept</h3>
-            <p>The barn house captivates<br> with its blend of rustic charm<br> and modern.
+            <p>Modern Barn reinterprets traditional barn structures through a contemporary lens. Features such as a symmetrical, steeply pitched roof, an absence of eaves and a range of oversized floor-to-ceiling windows.
             </p>
           </div>
 
           <div class="space-y-2 p-6 bg-yello rounded-2xl">
             <img src="assets/flow-chart.png">
             <h3 class="text-xl font-extrabold">Design Process</h3>
-            <p>The barn house captivates<br> with its blend of rustic charm<br> and modern.
+            <p>Barn-style homes are designed to resemble traditional barns while incorporating contemporary elements. These homes pay homage to the rustic aesthetics of barns but with a modern twist.
             </p>
           </div>
 
           <div class="space-y-2 p-6 bg-lightg rounded-2xl">
             <img src="assets/vision.png">
             <h3 class="text-xl font-extrabold">Supervision</h3>
-            <p>The barn house captivates<br> with its blend of rustic charm<br> and modern.
+            <p>The new replacement construction and a 500-year-old barn that was preserved now compose an ensemble that integrates into the village site like a modern interpretation of a Werdenberg farmhouse.
             </p>
           </div>
 
           <div class="space-y-2 p-6 bg-blu rounded-2xl">
             <img src="assets/budget-planning.png">
             <h3 class="text-xl font-extrabold">Budget Planning</h3>
-            <p>The barn house captivates<br> with its blend of rustic charm<br> and modern.
+            <p>We’ll then help you estimate costs and create a budget, touching on construction and interior finishing expenses. Also Learn about financing options. By the end of this article, you’ll be well-prepared to begin your barndominium journey!
             </p>
           </div>
 
@@ -202,10 +201,10 @@
 
       </div>   
 
-        <div class="flex justify-center items-center">
+        <div class="flex justify-center ">
           <div id="first-grid" class="grid grid-cols-1 lg:grid-cols-3 gap-5">
 
-            <div class="flex p-6 lg:col-span-2 border rounded-2xl">
+            <div class="flex flex-col md:flex-row items-center p-6 lg:col-span-2 border rounded-2xl">
               <div class="">
                 <img class="pr-6" src="assets/img1.png">
               </div>
@@ -218,33 +217,32 @@
               </div>
             </div>
 
-            <div class="border p-6 rounded-2xl">
+            <div class="border p-6 rounded-2xl flex justify-center">
               <img src="assets/img2.png">
             </div>
 
           </div>
         </div>
 
-        <div id="second-grid" class="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-6">
+        <div id="second-grid" class="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-6 lg:ml-44 lg:mr-44">
 
-          <div class="border p-6 rounded-2xl">
+          <div class="border rounded-2xl p-6 flex justify-center">
             <img src="assets/img3.png">
           </div>
 
-          <div class="flex p-6 lg:col-span-2 border rounded-2xl">
+          <div class="flex lg:col-span-2 border rounded-2xl p-6 space-x-5 flex-col md:flex-row items-center">
             <div class="">
-              <img class="pr-6" src="assets/img4.png">
+              <img class="" src="assets/img4.png">
             </div>
             <div class="space-y-2">
               <h1 class="text-xl font-bold mb-4">Commercial</h1>
-              <p class="mb-6">The barn house captivates with<br> its blend of rustic charm and<br> modern. </p>
+              <p class="">The barn house captivates with<br> its blend of rustic charm and<br> modern. </p>
               <button class=" bg-white text-xl font-bold">View Details <i
                   class="fa-solid fa-arrow-right -rotate-45 bg-leaf rounded-2xl p-1"></i></button>
             </div>
           </div>
 
-          <div class="border p-6 rounded-2xl
-          ">
+          <div class="border rounded-2xl p-6 flex justify-center">
             <img src="assets/img5.png">
           </div>
 
@@ -265,9 +263,7 @@
 
         <h1 class="text-4xl font-black">Facilities</h1>
 
-        <p class="mt-8 text-center">The barn house captivates with its blend of rustic charm and modern
-          sophistication,<br>
-          featuring weathered wood, sleek metal accents.</p>
+        <p class="mt-8 text-center">From barn conversions, Grade II-listed properties, farmhouses and hotels, the UK has thousands of wedding venues to pick from,<br> making finalising your list of possible destinations for your nuptials all the more challenging.</p>
       </div>
 
       <div class="collapse bg-base-200 mb-6">
@@ -314,9 +310,7 @@
 
         <h1 class="text-4xl font-black">Let’s Discuss Next Project</h1>
 
-        <p class="mt-8 text-center">The barn house captivates with its blend of rustic charm and modern
-          sophistication,<br>
-          featuring weathered wood, sleek metal accents.</p>
+        <p class="mt-8 text-center">We would love to hear your ideas and opinions.</p>
       </div>
 
       <div class="flex justify-center">
@@ -349,8 +343,7 @@
       <div id="write" class="">
         <a class="text-3xl font-extrabold text-white mt-20 mb-4"><i
             class="fa-solid fa-arrow-right -rotate-45 bg-bk-green rounded-3xl p-1 text-black"></i> Rinterio</a>
-        <p class="text-slate-400">The barn house captivates with its blend of rustic charm and modern
-          sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+        <p class="text-slate-400">The modern Barn design presents a simple take on traditional forms, incorporating classic Barn structures<br> with design concepts that maximise natural light and use a pared-back palette for interior spaces.</p>
 
       </div>
       <nav class="grid grid-flow-col gap-4 ">
